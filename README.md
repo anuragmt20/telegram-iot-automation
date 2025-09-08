@@ -46,11 +46,9 @@ This project connects your bot, MQTT broker, and ESP32 to create a simple remote
 ### 3. Pipedream Workflow
 1. Create a new workflow with **HTTP/Webhook trigger**  
 2. Set Telegram webhook to forward messages:
-
+```
 https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=<PIPEDREAM_WEBHOOK_URL>
-
-csharp
-Copy code
+```
 
 3. Add a **Node.js step** named `process_command` with this code:
 
@@ -118,10 +116,10 @@ export default defineComponent({
     return response;
   },
 });
+```
 Add another Node.js step named send_telegram_reply with this code:
 
-javascript
-Copy code
+```
 import { axios } from "@pipedream/platform"
 
 export default defineComponent({
@@ -149,6 +147,7 @@ export default defineComponent({
     })
   },
 });
+```
 🚀 Usage
 Commands to send your bot:
 
