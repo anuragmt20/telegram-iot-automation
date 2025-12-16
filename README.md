@@ -1,11 +1,11 @@
-# 🤖 Telegram Bot for IoT Device Automation
+#  Telegram Bot for IoT Device Automation
 
 Control your ESP32 (or other IoT devices) directly from Telegram using MQTT and Pipedream.  
 This project connects your bot, MQTT broker, and ESP32 to create a simple remote automation system.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 **Components:**
 
@@ -16,7 +16,7 @@ This project connects your bot, MQTT broker, and ESP32 to create a simple remote
 
 ---
 
-## ⚡ Setup Guide
+##  Setup Guide
 
 ### Prerequisites
 - Telegram account with a bot created via BotFather  
@@ -148,7 +148,7 @@ export default defineComponent({
   },
 });
 ```
-🚀 Usage
+Usage
 Commands to send your bot:
 
 /start → Welcome message
@@ -159,7 +159,7 @@ Commands to send your bot:
 
 /led off → Turn LED OFF
 
-🔧 Extend the Project
+ Extend the Project
 Add more LEDs or relays
 
 Control AC appliances
@@ -168,7 +168,7 @@ Read sensors (temperature, humidity)
 
 Create full smart home automation
 
-🐛 Troubleshooting
+ Troubleshooting
 Check Pipedream workflow logs for errors
 
 Verify HiveMQ credentials
@@ -177,5 +177,5 @@ Ensure Telegram webhook is set correctly
 
 Confirm MQTT topic matches between Pipedream and ESP32
 
-📜 License
+ License
 MIT License – free for personal and commercial use.
