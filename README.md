@@ -1,6 +1,6 @@
 #  Telegram Bot for IoT Device Automation
 
-Control your ESP32 (or other IoT devices) directly from Telegram using MQTT and Pipedream.  
+Control your ESP32 (or other IoT devices) directly from Telegram using MQTT.  
 This project connects your bot, MQTT broker, and ESP32 to create a simple remote automation system.
 
 ---
